@@ -1,0 +1,7 @@
+E:\2019-Programming Lang\C#\C_Sharp_Codes\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+E:\2019-Programming Lang\C#\C_Sharp_Codes\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+E:\2019-Programming Lang\C#\C_Sharp_Codes\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+E:\2019-Programming Lang\C#\C_Sharp_Codes\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+E:\2019-Programming Lang\C#\C_Sharp_Codes\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+E:\2019-Programming Lang\C#\C_Sharp_Codes\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+E:\2019-Programming Lang\C#\C_Sharp_Codes\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
