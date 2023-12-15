@@ -10,6 +10,7 @@ namespace Double_Data_Type
     {
         static void Main(string[] args)
         {
+            //Double Data Types
             double number = 12.59601;
             Console.WriteLine(number);
             Console.ReadLine();
