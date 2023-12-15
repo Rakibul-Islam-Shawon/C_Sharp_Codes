@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplicatin and Division"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Types", "..\Data Types\Data Types.csproj", "{27F9C5E7-3EEA-4F62-82D5-A9C06664811E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Float Data Types", "..\Float Data Types\Float Data Types.csproj", "{22A3E3B5-F047-45B6-867C-E4FF50774605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{27F9C5E7-3EEA-4F62-82D5-A9C06664811E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F9C5E7-3EEA-4F62-82D5-A9C06664811E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27F9C5E7-3EEA-4F62-82D5-A9C06664811E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A3E3B5-F047-45B6-867C-E4FF50774605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A3E3B5-F047-45B6-867C-E4FF50774605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A3E3B5-F047-45B6-867C-E4FF50774605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A3E3B5-F047-45B6-867C-E4FF50774605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
