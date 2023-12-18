@@ -10,6 +10,7 @@ namespace Variables
     {
         static void Main(string[] args)
         {
+            /*
             int x;
             int y;
 
@@ -18,6 +19,22 @@ namespace Variables
 
             Console.WriteLine(y);
             Console.ReadLine();
+
+            */
+
+            Console.WriteLine("What is your name ?");
+            Console.Write("Type your first name: ");
+
+            string myFirstName;
+            myFirstName = Console.ReadLine();
+
+            Console.Write("What is your last name: ");
+            string myLastName;
+            myLastName = Console.ReadLine();
+
+            Console.WriteLine("Hello, " + myFirstName + " " + myLastName);
+            Console.ReadLine();
+
         }
     }
 }
