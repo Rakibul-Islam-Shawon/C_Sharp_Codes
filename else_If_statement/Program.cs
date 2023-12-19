@@ -32,6 +32,12 @@ namespace else_If_statement
                 Console.WriteLine(message);
             }
 
+            else
+            {
+                string message = "Sorry, we don't understand";
+                Console.WriteLine(message);
+            }
+
 
             Console.ReadLine();
         }
