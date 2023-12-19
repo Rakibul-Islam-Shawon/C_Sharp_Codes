@@ -19,7 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Double Data Type", "..\Doub
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "..\Variables\Variables.csproj", "{6F2E5ACA-38C7-4939-A9D2-51F706BD2C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decisions", "..\Decisions\Decisions.csproj", "{98B514EC-33A0-45C1-AA1A-9AF190FAF7E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decisions", "..\Decisions\Decisions.csproj", "{98B514EC-33A0-45C1-AA1A-9AF190FAF7E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "else_If_statement", "..\else_If_statement\else_If_statement.csproj", "{EDA4BEAD-CF0F-45E9-A0A6-236CBB39BA96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{98B514EC-33A0-45C1-AA1A-9AF190FAF7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98B514EC-33A0-45C1-AA1A-9AF190FAF7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98B514EC-33A0-45C1-AA1A-9AF190FAF7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA4BEAD-CF0F-45E9-A0A6-236CBB39BA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA4BEAD-CF0F-45E9-A0A6-236CBB39BA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA4BEAD-CF0F-45E9-A0A6-236CBB39BA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA4BEAD-CF0F-45E9-A0A6-236CBB39BA96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
