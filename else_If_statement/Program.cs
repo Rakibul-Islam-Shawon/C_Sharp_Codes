@@ -44,7 +44,9 @@ namespace else_If_statement
 
             //Console.WriteLine(message);
 
-            Console.WriteLine("You won a {0}. ", message); //As in programming 0 is initial position instead of 1
+            //Console.WriteLine("You won a {0}. ", message); //As in programming 0 is initial position instead of 1
+            Console.WriteLine("You entered {0}. You won {1}", userValue, message);
+            
             Console.ReadLine();
         }
     }
