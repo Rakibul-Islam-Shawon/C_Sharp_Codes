@@ -14,7 +14,7 @@ namespace else_If_statement
             Console.WriteLine("Bob's Big Giveaway");
             Console.Write("Choose a door: 1 , 2 or 3: ");
             string userValue = Console.ReadLine();
-           /* string message = "";*/
+            /* string message = "";*/
 
             /*if (userValue == "1")
             {
@@ -39,9 +39,12 @@ namespace else_If_statement
 
             }*/
 
-            string message = (userValue == "1") ? "You won" : "Wrong info ";
+            //string message = (userValue == "1") ? "you won " : "Wrong info ";
+            string message = (userValue == "1") ? "Horse " : "Nothing ";
 
-            Console.WriteLine(message);
+            //Console.WriteLine(message);
+
+            Console.WriteLine("You won a {0}. ", message); //As in programming 0 is initial position instead of 1
             Console.ReadLine();
         }
     }
