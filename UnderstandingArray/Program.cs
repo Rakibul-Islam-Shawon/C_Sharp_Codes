@@ -31,12 +31,30 @@ namespace UnderstandingArray
             }*/
 
 
-            foreach(string name in names)
+            /*foreach(string name in names)
             {
                 Console.WriteLine(name);
             }
 
+            Console.ReadLine();*/
+
+
+
+            string zig = "You can get help from others " + "If you help others.";
+
+            char[] charArray = zig.ToCharArray();
+
+            Array.Reverse(charArray); // Method used for reverse array
+            
+
+            foreach(char zigWord in charArray)
+            {
+                Console.Write(zigWord);
+            }
+
             Console.ReadLine();
+
+
 
 
 
