@@ -88,7 +88,7 @@ namespace WhileIteration
                 Console.WriteLine("Guess a number between 1 and 10: ");
                 string result = Console.ReadLine();
                 guesses++;
-
+                Console.WriteLine("Random number is: {0}",randomNumber);
                 if(result == randomNumber.ToString())
                 {
                     incorrect = false;
