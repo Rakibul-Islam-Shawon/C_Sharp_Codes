@@ -73,7 +73,36 @@ namespace WhileIteration
 
         private static void GussingNumbers()
         {
+            Console.Clear();
             Console.WriteLine("Gussing Number");
+
+            Random myRandom = new Random();
+
+            int randomNumber = myRandom.Next(1, 11);
+
+            int guesses = 0;
+            bool incorrect = true;
+
+            do
+            {
+                Console.WriteLine("Guess a number between 1 and 10: ");
+                string result = Console.ReadLine();
+                guesses++;
+
+                if(result == randomNumber.ToString())
+                {
+                    incorrect = false;
+                }
+                else
+                {
+                    Console.WriteLine("Wrong!");
+                }
+
+            } while (incorrect);
+
+
+
+            Console.WriteLine("Correct! It too you {0} guesses.", guesses);
 
             Console.ReadLine();
         }
