@@ -20,6 +20,8 @@ namespace WhileIteration
 
         private static bool MainMenu()
         {
+
+            Console.Clear();
             Console.WriteLine("Choose an Option: ");
             Console.WriteLine("1) Option 1");
             Console.WriteLine("2) Option 2");
@@ -51,6 +53,8 @@ namespace WhileIteration
 
         private static void PrintNumbers()
         {
+
+            Console.Clear();
             Console.WriteLine("Print numbers!");
             Console.Write("Type a number: ");
 
