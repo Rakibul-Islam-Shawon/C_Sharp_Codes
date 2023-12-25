@@ -52,6 +52,18 @@ namespace WhileIteration
         private static void PrintNumbers()
         {
             Console.WriteLine("Print numbers!");
+            Console.Write("Type a number: ");
+
+            int result = int.Parse(Console.ReadLine());
+            int counter = 1;
+
+            while(counter < result + 1)
+            {
+                Console.Write(counter);
+                Console.Write("-");
+                counter++;
+            }
+
             Console.ReadLine();
         }
 
