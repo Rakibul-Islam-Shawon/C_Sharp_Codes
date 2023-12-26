@@ -26,7 +26,13 @@ namespace WorkingWithString
 
             // string myString = String.Format("Percentage: {0:P}", .123); //:P is used for percentage
 
-            string myString = String.Format("Phone Number: {0:(####) ### ####}", 017212312311);
+            //string myString = String.Format("Phone Number: {0:(####) ### ####}", 017212312311);
+
+            string myString = "  That summer we took threes across the board ";
+
+            // myString = myString.Substring(6, 14);
+
+            myString = myString.ToUpper();
 
 
             Console.WriteLine(myString);
