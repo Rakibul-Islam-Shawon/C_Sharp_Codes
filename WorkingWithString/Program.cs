@@ -16,7 +16,10 @@ namespace WorkingWithString
 
             //string myString = "Go to your c:\\ drive"; //Backslash character as escape sequence
 
-            string myString = @"Go to your c:\ drive";
+            //string myString = @"Go to your c:\ drive";
+
+            string myString = String.Format("{0} = {1}", "First", "Second"); //Replacement Code
+
             Console.WriteLine(myString);
             Console.ReadLine();
         }
