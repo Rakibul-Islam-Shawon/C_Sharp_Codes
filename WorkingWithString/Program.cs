@@ -20,8 +20,10 @@ namespace WorkingWithString
 
             //string myString = String.Format("{0} = {1}", "First", "Second"); //Replacement Code
 
-            string myString = String.Format("{0:C}", 123.45);
+            //string myString = String.Format("{0:C}", 123.45); //:C is a format character use for Currency
 
+            String myString = String.Format("{0:N}", 1254785545844); //:N is for formating with comma and decimal position
+            
             Console.WriteLine(myString);
             Console.ReadLine();
         }
