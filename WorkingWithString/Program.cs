@@ -10,7 +10,9 @@ namespace WorkingWithString
     {
         static void Main(string[] args)
         {
-            string myString = "My \"So-Called\"life";
+            //string myString = "My \"So-Called\"life"; //Quation operator
+
+            string myString = "What if I need a \nnew Line";
 
             Console.WriteLine(myString);
             Console.ReadLine();
