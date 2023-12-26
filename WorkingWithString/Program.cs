@@ -32,7 +32,9 @@ namespace WorkingWithString
 
             // myString = myString.Substring(6, 14);
 
-            myString = myString.ToUpper();
+            // myString = myString.ToUpper();
+
+            myString = myString.Replace(" ", "--");
 
 
             Console.WriteLine(myString);
