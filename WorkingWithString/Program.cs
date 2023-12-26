@@ -18,7 +18,9 @@ namespace WorkingWithString
 
             //string myString = @"Go to your c:\ drive";
 
-            string myString = String.Format("{0} = {1}", "First", "Second"); //Replacement Code
+            //string myString = String.Format("{0} = {1}", "First", "Second"); //Replacement Code
+
+            string myString = String.Format("{0:C}", 123.45);
 
             Console.WriteLine(myString);
             Console.ReadLine();
