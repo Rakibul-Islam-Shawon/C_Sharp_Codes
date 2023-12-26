@@ -24,8 +24,11 @@ namespace WorkingWithString
 
             //string myString = String.Format("{0:N}", 1254785545844); //:N is for formating with comma and decimal position
 
-            string myString = String.Format("Percentage: {0:P}", .123); //:P is used for percentage
-            
+            // string myString = String.Format("Percentage: {0:P}", .123); //:P is used for percentage
+
+            string myString = String.Format("Phone Number: {0:(####) ### ####}", 017212312311);
+
+
             Console.WriteLine(myString);
             Console.ReadLine();
         }
