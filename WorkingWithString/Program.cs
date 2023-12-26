@@ -12,8 +12,11 @@ namespace WorkingWithString
         {
             //string myString = "My \"So-Called\"life"; //Quation operator
 
-            string myString = "What if I need a \nnew Line";
+            //string myString = "What if I need a \nnew Line"; //Escape character
 
+            //string myString = "Go to your c:\\ drive"; //Backslash character as escape sequence
+
+            string myString = @"Go to your c:\ drive";
             Console.WriteLine(myString);
             Console.ReadLine();
         }
