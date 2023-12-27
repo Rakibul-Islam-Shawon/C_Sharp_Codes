@@ -36,7 +36,8 @@ namespace WorkingWithString
 
             //myString = myString.Replace(" ", "--");
 
-            myString = myString.Remove(8, 11);
+            //myString = myString.Remove(8, 11);
+
 
 
             Console.WriteLine(myString);
