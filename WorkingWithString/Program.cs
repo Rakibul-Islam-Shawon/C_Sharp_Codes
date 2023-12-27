@@ -34,7 +34,9 @@ namespace WorkingWithString
 
             // myString = myString.ToUpper();
 
-            myString = myString.Replace(" ", "--");
+            //myString = myString.Replace(" ", "--");
+
+            myString = myString.Remove(8, 11);
 
 
             Console.WriteLine(myString);
