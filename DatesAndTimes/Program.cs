@@ -17,7 +17,9 @@ namespace DatesAndTimes
             //Console.WriteLine(myValue.ToShortTimeString());
             //Console.WriteLine(myValue.ToLongDateString());
             //Console.WriteLine(myValue.ToLongTimeString());
-            Console.WriteLine(myValue.AddDays(2).ToLongDateString());
+
+            //Console.WriteLine(myValue.AddDays(2).ToLongDateString());
+            Console.WriteLine(myValue.AddHours(3).ToLongTimeString());
 
             Console.ReadLine();
         }
