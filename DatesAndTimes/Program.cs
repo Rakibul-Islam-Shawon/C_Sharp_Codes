@@ -13,7 +13,9 @@ namespace DatesAndTimes
             DateTime myValue = DateTime.Now;
 
             //Console.WriteLine(myValue.ToString());
-            Console.WriteLine(myValue.ToShortDateString());
+            //Console.WriteLine(myValue.ToShortDateString());
+            Console.WriteLine(myValue.ToShortTimeString());
+
             Console.ReadLine();
         }
     }
