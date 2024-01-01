@@ -21,7 +21,9 @@ namespace DatesAndTimes
             //Console.WriteLine(myValue.AddDays(2).ToLongDateString());
             //Console.WriteLine(myValue.AddHours(3).ToLongTimeString());
             //Console.WriteLine(myValue.AddDays(-1).ToLongDateString());
-            Console.WriteLine(myValue.AddHours(-3).ToLongTimeString());
+            //Console.WriteLine(myValue.AddHours(-3).ToLongTimeString());
+
+            Console.WriteLine(myValue.Month);
 
             Console.ReadLine();
         }
