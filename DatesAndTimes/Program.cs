@@ -26,9 +26,12 @@ namespace DatesAndTimes
 
             //Console.WriteLine(myValue.Month);
 
-            DateTime myBirthday = new DateTime(1994, 10, 18);
-            Console.WriteLine(myBirthday.ToShortDateString());
+            //DateTime myBirthday = new DateTime(1994, 10, 18);
+            //Console.WriteLine(myBirthday.ToShortDateString());
+            DateTime myBirthday = DateTime.Parse("12/10/1994");
+            TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
 
+            Console.WriteLine(myAge.TotalDays);
             
 
             Console.ReadLine();
