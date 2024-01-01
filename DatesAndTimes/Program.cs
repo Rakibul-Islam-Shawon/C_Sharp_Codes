@@ -23,7 +23,13 @@ namespace DatesAndTimes
             //Console.WriteLine(myValue.AddDays(-1).ToLongDateString());
             //Console.WriteLine(myValue.AddHours(-3).ToLongTimeString());
 
-            Console.WriteLine(myValue.Month);
+
+            //Console.WriteLine(myValue.Month);
+
+            DateTime myBirthday = new DateTime(1994, 10, 18);
+            Console.WriteLine(myBirthday.ToShortDateString());
+
+            
 
             Console.ReadLine();
         }
