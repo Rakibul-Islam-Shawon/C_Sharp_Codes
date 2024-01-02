@@ -18,7 +18,17 @@ namespace SimpleClass
 
 
             Console.WriteLine("{0} {1} {2} {3}", myCar.Make, myCar.Model, myCar.Year, myCar.Color);
+
+            decimal value = DetermineMarketValue(myCar);
+            Console.WriteLine("{0:C}", value);
             Console.ReadLine();
+        }
+
+        private static decimal DetermineMarketValue(Car car)
+        {
+            decimal carValue = 100.0M;
+
+            return carValue;
         }
     }
 
