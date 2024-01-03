@@ -31,8 +31,9 @@ namespace DatesAndTimes
             DateTime myBirthday = DateTime.Parse("12/10/1994");
             TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
 
+            Console.WriteLine(myAge.TotalMinutes);
             Console.WriteLine(myAge.TotalDays);
-            
+
 
             Console.ReadLine();
         }
