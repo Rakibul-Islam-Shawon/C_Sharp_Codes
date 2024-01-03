@@ -48,7 +48,7 @@ namespace SimpleClass
         {
             decimal carValue;
 
-            if (Year > 1990)
+            if (Year < 1990)
                 carValue = 10000;
             else
                 carValue = 2000;
