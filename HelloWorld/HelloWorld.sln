@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatesAndTimes", "..\DatesAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClass", "..\SimpleClass\SimpleClass.csproj", "{EB3C0DEE-894D-4A53-9B57-87F373849BE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAnotherClass", "..\SimpleAnotherClass\SimpleAnotherClass.csproj", "{9DE3682E-3933-4741-A336-404415FFD02B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{EB3C0DEE-894D-4A53-9B57-87F373849BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB3C0DEE-894D-4A53-9B57-87F373849BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB3C0DEE-894D-4A53-9B57-87F373849BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE3682E-3933-4741-A336-404415FFD02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE3682E-3933-4741-A336-404415FFD02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE3682E-3933-4741-A336-404415FFD02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE3682E-3933-4741-A336-404415FFD02B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
