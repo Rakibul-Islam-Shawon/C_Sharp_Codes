@@ -12,8 +12,12 @@ namespace SimpleAnotherClass
         static void Main(string[] args)
         {
             Addition a = new Addition();
+            Subtraction b = new Subtraction();
+
+
 
             Console.WriteLine(a.add());
+            Console.WriteLine(b.subtract());
         }
     }
 
@@ -27,5 +31,17 @@ namespace SimpleAnotherClass
             return a + b;
         }
         
+    }
+
+    public class Subtraction
+    {
+        public int a = 50;
+        public int b = 20;
+
+        public int subtract()
+        {
+            return a - b;
+        }
+
     }
 }
