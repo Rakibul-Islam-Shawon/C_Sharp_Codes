@@ -14,6 +14,7 @@ namespace SimpleAnotherClass
             Addition a = new Addition();
             Subtraction b = new Subtraction();
             Multiplication c = new Multiplication();
+            Division d = new Division();
 
 
 
@@ -21,6 +22,7 @@ namespace SimpleAnotherClass
             Console.WriteLine(a.add());
             Console.WriteLine(b.subtract());
             Console.WriteLine(c.mul());
+            Console.WriteLine(d.div());
         }
     }
 
@@ -56,6 +58,18 @@ namespace SimpleAnotherClass
         public int mul()
         {
             return a * b;
+        }
+
+    }
+
+    public class Division
+    {
+        public int a = 100;
+        public int b = 20;
+
+        public int div()
+        {
+            return a / b;
         }
 
     }
