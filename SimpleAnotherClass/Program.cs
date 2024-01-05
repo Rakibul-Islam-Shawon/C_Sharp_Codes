@@ -29,7 +29,7 @@ namespace SimpleAnotherClass
     public class Addition
     {
         public int a = 10;
-        public int b = 20;  
+        public int b = 2000;  
 
         public int add()
         {
@@ -41,7 +41,7 @@ namespace SimpleAnotherClass
     public class Subtraction
     {
         public int a = 50;
-        public int b = 20;
+        public int b = 200;
 
         public int subtract()
         {
