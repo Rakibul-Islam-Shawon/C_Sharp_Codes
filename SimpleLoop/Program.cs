@@ -13,9 +13,15 @@ namespace SimpleLoop
         {
             int a = 100;
 
-            for(int i = 0; i< a; i++)
+            for(int i = 0; i< 200; i++)
             {
-                Console.WriteLine(i);
+               // Console.WriteLine(i);
+
+                if(i == a)
+                {
+                    Console.WriteLine("Now the two value is same");
+                    break;
+                }
 
 
             }
