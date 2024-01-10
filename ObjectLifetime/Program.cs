@@ -19,6 +19,13 @@ namespace ObjectLifetime
 
             Console.WriteLine("{0} {1} {2} {3} ", myCar.Make, myCar.Model, myCar.Year, myCar.Color);
 
+            Car myOtherCar = new Car();
+
+            myOtherCar = myCar;
+            Console.WriteLine("{0} {1} {2} {3} ", myOtherCar.Make, myOtherCar.Model, myOtherCar.Year, myOtherCar.Color);
+
+            myOtherCar.Model = "98";
+            Console.WriteLine("{0} {1} {2} {3} ", myCar.Make, myCar.Model, myCar.Year, myCar.Color);
             Console.WriteLine();
 
         }
