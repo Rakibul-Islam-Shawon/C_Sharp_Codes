@@ -10,6 +10,16 @@ namespace ObjectLifetime
     {
         static void Main(string[] args)
         {
+            Car myCar = new Car();
+
+            myCar.Make = "Audi";
+            myCar.Model = "1999";
+            myCar.Year = 2020;
+            myCar.Color = "Silver";
+
+            Console.WriteLine("{0} {1} {2} {3} ", myCar.Make, myCar.Model, myCar.Year, myCar.Color);
+
+            Console.WriteLine();
 
         }
     }
