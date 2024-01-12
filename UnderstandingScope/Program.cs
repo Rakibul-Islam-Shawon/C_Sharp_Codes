@@ -8,6 +8,8 @@ namespace UnderstandingScope
 {
     internal class Program
     {
+
+        private static string k = "";
         static void Main(string[] args)
         {
 
@@ -16,11 +18,14 @@ namespace UnderstandingScope
             for (int i = 0; i < 10; i++)
             {
                 j = i.ToString();
+                k = i.ToString();
 
                 Console.WriteLine(i);
             }
 
             Console.WriteLine("Outsid of the for : " + j);
+            Console.WriteLine("Outsid of the for : " + k);
+
             Console.ReadLine();
         }
     }
