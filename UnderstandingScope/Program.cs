@@ -10,11 +10,17 @@ namespace UnderstandingScope
     {
         static void Main(string[] args)
         {
+
+            string j = "";
+
             for (int i = 0; i < 10; i++)
             {
+                j = i.ToString();
 
                 Console.WriteLine(i);
             }
+
+            Console.WriteLine("Outsid of the for : " + j);
             Console.ReadLine();
         }
     }
