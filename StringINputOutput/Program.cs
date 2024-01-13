@@ -16,8 +16,17 @@ namespace StringINputOutput
             Console.Write("Your address please: ");
             string Address = Console.ReadLine();
 
+            Console.Write("Your Phone Number please: ");
+            string PhoneNumber = Console.ReadLine();
 
-            Console.WriteLine("Your name is: {0} and your Address is: {1}.", Name, Address);
+            Console.Write("Your ID please: ");
+            string ID = Console.ReadLine();
+
+            
+
+
+            Console.WriteLine("Your name is: {0}\n and your Address is: {1}.\n Your Phone Number: {2}, Your Id: {3}",
+                Name, Address, PhoneNumber, ID);
             Console.ReadLine();
         }
     }
