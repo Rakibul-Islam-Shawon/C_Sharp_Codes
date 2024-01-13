@@ -27,6 +27,7 @@ namespace UnderstandingScope
             Console.WriteLine("Outsid of the for : " + k);
 
             HelperMethod();
+            HelperMethodAnother();
 
             Console.ReadLine();
         }
@@ -34,6 +35,11 @@ namespace UnderstandingScope
         static void HelperMethod()
         {
             Console.WriteLine("Value of k from the HelperMethod(): " + k);
+        }
+
+        static void HelperMethodAnother()
+        {
+            Console.WriteLine("Value of k from the HelperMethod: " + k);
         }
     }
 }
