@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLoop", "..\SimpleLoop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingScope", "..\UnderstandingScope\UnderstandingScope.csproj", "{A2E4457C-1E44-4B1F-A159-351AB69FA002}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringINputOutput", "..\StringINputOutput\StringINputOutput.csproj", "{9E5454F3-3FBE-4F56-A855-E712CBCD767B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{A2E4457C-1E44-4B1F-A159-351AB69FA002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2E4457C-1E44-4B1F-A159-351AB69FA002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2E4457C-1E44-4B1F-A159-351AB69FA002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5454F3-3FBE-4F56-A855-E712CBCD767B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5454F3-3FBE-4F56-A855-E712CBCD767B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5454F3-3FBE-4F56-A855-E712CBCD767B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5454F3-3FBE-4F56-A855-E712CBCD767B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
