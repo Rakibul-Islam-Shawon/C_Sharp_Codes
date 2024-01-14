@@ -22,11 +22,16 @@ namespace StringINputOutput
             Console.Write("Your ID please: ");
             string ID = Console.ReadLine();
 
-            
+            Console.Write("Your Present Address please: ");
+            string PresentAddress = Console.ReadLine();
+
+            Console.Write("Your Permanent Address please: ");
+            string PermanentAddress = Console.ReadLine();
 
 
-            Console.WriteLine("Your name is: {0}\n and your Address is: {1}.\n Your Phone Number: {2}, Your Id: {3}",
-                Name, Address, PhoneNumber, ID);
+            Console.WriteLine("Your name is: {0}\n and your Address is: {1}.\n Your Phone Number: {2}, " +
+                "Your Id: {3}\n, Your present: {4}\n, Your Permanent Address: {5} ",
+                Name,Address, PhoneNumber, ID, PresentAddress, PermanentAddress);
             Console.ReadLine();
         }
     }
