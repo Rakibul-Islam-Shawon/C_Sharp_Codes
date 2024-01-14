@@ -18,12 +18,18 @@ namespace IfElseProgram
                 Console.WriteLine("A greater than B");
 
             }
-            else
+            else if( a < b)
             {
                 Console.WriteLine("B greater than A");
             }
+            else
+            {
+                Console.WriteLine("You put wrong information");
+            }
 
-            
+
+
+            Console.WriteLine();
 
         }
     }
