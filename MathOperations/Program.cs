@@ -13,6 +13,10 @@ namespace MathOperations
             int result = Math.Max(34, 345);
 
             Console.WriteLine(result);
+
+            int min_result = Math.Min(24, 343);
+            Console.WriteLine(min_result);
+            Console.ReadLine();
         }
     }
 }
