@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "..\MathOp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringandDiscussion", "..\ConsoleApp1\StringandDiscussion.csproj", "{C04C4915-946C-436A-9B45-2AD48DF8B2E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", "..\WorkingWithCollections\WorkingWithCollections.csproj", "{317022BC-CE5B-46D1-966C-2973C18F169F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{C04C4915-946C-436A-9B45-2AD48DF8B2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C04C4915-946C-436A-9B45-2AD48DF8B2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C04C4915-946C-436A-9B45-2AD48DF8B2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{317022BC-CE5B-46D1-966C-2973C18F169F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317022BC-CE5B-46D1-966C-2973C18F169F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317022BC-CE5B-46D1-966C-2973C18F169F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317022BC-CE5B-46D1-966C-2973C18F169F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
