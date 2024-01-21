@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,18 @@ namespace WorkingWithCollections
             b1.Title = "Microsoft .Net XML Web Services";
             b1.ISBN = "0-000-00000-0";
 
+
+            ArrayList myArrayList = new ArrayList();
+
+            myArrayList.Add(car1);
+            myArrayList.Add(car2);
+            myArrayList.Add(b1);
+
+            foreach(Car car in myArrayList)
+            {
+                Console.WriteLine(car.Make);
+
+            }
 
         }
     }
