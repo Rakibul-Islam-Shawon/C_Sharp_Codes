@@ -15,6 +15,7 @@ namespace StringandDiscussion
             Console.WriteLine(hello.Length);
             Console.WriteLine(hello.ToUpper());
             Console.WriteLine(hello.ToLower());
+            Console.WriteLine(hello + " You are a nice person.");
 
 
             Console.ReadLine();
