@@ -21,6 +21,10 @@ namespace MathOperations
             double sqrt_result = Math.Sqrt(36);
             Console.WriteLine(sqrt_result);
 
+
+            int absolute_result = Math.Abs(-39);
+            Console.WriteLine(absolute_result);
+
             Console.ReadLine();
         }
     }
