@@ -14,6 +14,7 @@ namespace StringandDiscussion
 
             Console.WriteLine(hello.Length);
             Console.WriteLine(hello.ToUpper());
+            Console.WriteLine(hello.ToLower());
 
 
             Console.ReadLine();
