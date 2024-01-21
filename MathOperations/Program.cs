@@ -16,6 +16,11 @@ namespace MathOperations
 
             int min_result = Math.Min(24, 343);
             Console.WriteLine(min_result);
+
+
+            double sqrt_result = Math.Sqrt(36);
+            Console.WriteLine(sqrt_result);
+
             Console.ReadLine();
         }
     }
