@@ -24,7 +24,9 @@ namespace WorkingWithCollections
             b1.Title = "Microsoft .Net XML Web Services";
             b1.ISBN = "0-000-00000-0";
 
-
+            /*
+             * 
+             * Old Style arraylist
             ArrayList myArrayList = new ArrayList();
 
             myArrayList.Add(car1);
@@ -36,7 +38,19 @@ namespace WorkingWithCollections
                 Console.WriteLine(car.Make);
 
             }
+            */
 
+            List<Car> myList = new List<Car>();
+
+            myList.Add(car1);
+            myList.Add(car2);
+
+            foreach (Car car in myList)
+            {
+                Console.WriteLine(car.Model);
+            }
+
+            Console.ReadLine();
         }
     }
 
