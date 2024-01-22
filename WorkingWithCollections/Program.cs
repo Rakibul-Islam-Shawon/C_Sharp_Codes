@@ -11,6 +11,7 @@ namespace WorkingWithCollections
     {
         static void Main(string[] args)
         {
+            /*
             Car car1 = new Car();
             car1.Make = "Oldmobile";
             car1.Model = "Cutlas Supreme";
@@ -25,6 +26,8 @@ namespace WorkingWithCollections
             b1.Author = "Robert Tabor";
             b1.Title = "Microsoft .Net XML Web Services";
             b1.ISBN = "0-000-00000-0";
+
+            */
 
             /*
              * 
@@ -54,13 +57,23 @@ namespace WorkingWithCollections
 
             */
 
+
+            /*
             Dictionary<string, Car> myDictionary = new Dictionary<string, Car>();
             myDictionary.Add(car1.VIN, car1);
             myDictionary.Add(car2.VIN, car2);
 
             Console.WriteLine(myDictionary["B1"].Make);
 
+            */
 
+            //string[] names = { "Bob", "Steve", "Brian", "Chuck" };
+
+            List<Car> myList = new List<Car>()
+            {
+                new Car {Make = "Oldsmobile", Model = "Cutlas Supreme", VIN = "E5"},
+                new Car {Make = "Nissan", Model = "Altima", VIN = "F6"}
+            };
 
             Console.ReadLine();
         }
