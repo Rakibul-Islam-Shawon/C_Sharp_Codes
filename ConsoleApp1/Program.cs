@@ -10,13 +10,19 @@ namespace StringandDiscussion
     {
         static void Main(string[] args)
         {
-            string hello = "Hello world this is Hanry.";
+            
+            /*string hello = "Hello world this is Hanry.";
 
             Console.WriteLine(hello.Length);
             Console.WriteLine(hello.ToUpper());
             Console.WriteLine(hello.ToLower());
             Console.WriteLine(hello + " You are a nice person.");
+            */
 
+            string name = Console.ReadLine();
+            string candies = Console.ReadLine();
+
+            Console.WriteLine($"Your name is {name}. You will get {candies} candies");
 
             Console.ReadLine();
 
