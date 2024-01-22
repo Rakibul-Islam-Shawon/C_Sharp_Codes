@@ -14,10 +14,12 @@ namespace WorkingWithCollections
             Car car1 = new Car();
             car1.Make = "Oldmobile";
             car1.Model = "Cutlas Supreme";
+            car1.VIN = "A1";
 
             Car car2 = new Car();
             car2.Make = "Geo";
             car2.Model = "Prism";
+            car2.VIN = "B1";
 
             Book b1 = new Book();
             b1.Author = "Robert Tabor";
@@ -39,7 +41,7 @@ namespace WorkingWithCollections
 
             }
             */
-
+            /*
             List<Car> myList = new List<Car>();
 
             myList.Add(car1);
@@ -50,12 +52,23 @@ namespace WorkingWithCollections
                 Console.WriteLine(car.Model);
             }
 
+            */
+
+            Dictionary<string, Car> myDictionary = new Dictionary<string, Car>();
+            myDictionary.Add(car1.VIN, car1);
+            myDictionary.Add(car2.VIN, car2);
+
+            Console.WriteLine(myDictionary["B1"].Make);
+
+
+
             Console.ReadLine();
         }
     }
 
     class Car
     {
+        public string VIN { get; set; }
         public string Make {  get; set; }
         public string Model { get; set; }
 
