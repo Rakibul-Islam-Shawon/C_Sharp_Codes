@@ -29,6 +29,8 @@ namespace StringandDiscussion
             string hello = "Assalamu Alaikum, How are you";
             Console.WriteLine(hello[2]);
 
+            Console.WriteLine(hello.IndexOf("Alaikum"));
+
             Console.ReadLine();
 
         }
