@@ -32,7 +32,7 @@ namespace IfElseProgram
             }
             else
             {
-                Console.WriteLine("You put wrong information");
+                Console.WriteLine("You put wrong information.Please enter right informatin.");
             }
 
 
