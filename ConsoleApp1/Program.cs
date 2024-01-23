@@ -30,7 +30,7 @@ namespace StringandDiscussion
             Console.WriteLine(hello[2]);
 
             Console.WriteLine(hello.IndexOf("Alaikum"));
-            Console.WriteLine(hello.Substring(10));
+            Console.WriteLine(hello.Substring(5));
 
             Console.ReadLine();
 
