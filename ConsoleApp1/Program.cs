@@ -32,6 +32,11 @@ namespace StringandDiscussion
             Console.WriteLine(hello.IndexOf("Alaikum"));
             Console.WriteLine(hello.Substring(5));
 
+
+            string hello1 = "What is your name";
+            Console.WriteLine(hello1[3]);
+            Console.WriteLine(hello1.IndexOf("is"));
+
             Console.ReadLine();
 
         }
