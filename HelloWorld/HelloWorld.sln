@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringandDiscussion", "..\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", "..\WorkingWithCollections\WorkingWithCollections.csproj", "{317022BC-CE5B-46D1-966C-2973C18F169F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringLearning", "..\StringLearning\StringLearning.csproj", "{B09468CE-3A81-45FB-9C17-87B79184C894}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{317022BC-CE5B-46D1-966C-2973C18F169F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{317022BC-CE5B-46D1-966C-2973C18F169F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{317022BC-CE5B-46D1-966C-2973C18F169F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09468CE-3A81-45FB-9C17-87B79184C894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09468CE-3A81-45FB-9C17-87B79184C894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09468CE-3A81-45FB-9C17-87B79184C894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09468CE-3A81-45FB-9C17-87B79184C894}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
