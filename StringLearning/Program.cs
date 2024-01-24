@@ -10,9 +10,15 @@ namespace StringLearning
     {
         static void Main(string[] args)
         {
+            /*
             string txt = "Hello World";
             Console.WriteLine(txt.ToUpper());   // Outputs "HELLO WORLD"
             Console.WriteLine(txt.ToLower());   // Outputs "hello world"
+
+            */
+
+            string myString = "Hello";
+            Console.WriteLine(myString.IndexOf("e"));
         }
     }
 }
