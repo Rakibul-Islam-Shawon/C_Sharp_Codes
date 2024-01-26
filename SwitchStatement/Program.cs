@@ -11,7 +11,7 @@ namespace SwitchStatement
         static void Main(string[] args)
         {
 
-            int age = 78;
+            int age = 20;
 
             switch (age)
             {
