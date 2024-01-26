@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCollections", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringLearning", "..\StringLearning\StringLearning.csproj", "{B09468CE-3A81-45FB-9C17-87B79184C894}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchStatement", "..\SwitchStatement\SwitchStatement.csproj", "{AE81C74E-B69B-495E-B204-0FB1D3FDCBD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{B09468CE-3A81-45FB-9C17-87B79184C894}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09468CE-3A81-45FB-9C17-87B79184C894}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09468CE-3A81-45FB-9C17-87B79184C894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE81C74E-B69B-495E-B204-0FB1D3FDCBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE81C74E-B69B-495E-B204-0FB1D3FDCBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE81C74E-B69B-495E-B204-0FB1D3FDCBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE81C74E-B69B-495E-B204-0FB1D3FDCBD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
