@@ -12,11 +12,17 @@ namespace LoopsStatment
         {
             int i = 0;
 
-            while(i < 5)
+            /*while(i < 5)
             {
                 Console.WriteLine(i);
                 i++;
-            }
+            }*/
+
+            do
+            {
+                Console.WriteLine(i + 1);
+                i++;
+            } while (i < 5000);
         }
     }
 }
