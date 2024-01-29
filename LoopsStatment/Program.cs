@@ -18,11 +18,20 @@ namespace LoopsStatment
                 i++;
             }*/
 
-            do
+            /*do
             {
                 Console.WriteLine(i + 1);
                 i++;
-            } while (i < 5000);
+            } while (i < 5000);*/
+
+
+            for( int j = 0; j <=10; j++)
+            {
+                Console.WriteLine(j);
+            }
+
+
+            Console.ReadLine();
         }
     }
 }
