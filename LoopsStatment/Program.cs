@@ -32,7 +32,7 @@ namespace LoopsStatment
 
             for (int j = 10; j >= 1; j--)
             {
-                Console.WriteLine(j);
+                Console.WriteLine(j * 2);
             }
 
 
