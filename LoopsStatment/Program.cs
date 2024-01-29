@@ -25,7 +25,12 @@ namespace LoopsStatment
             } while (i < 5000);*/
 
 
-            for( int j = 0; j <=10; j++)
+            /* for( int j = 0; j <=10; j++)
+             {
+                 Console.WriteLine(j);
+             }*/
+
+            for (int j = 10; j >= 1; j--)
             {
                 Console.WriteLine(j);
             }
