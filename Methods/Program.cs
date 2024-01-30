@@ -13,9 +13,9 @@ namespace Methods
             Console.WriteLine("Good Morning." + name);
         }
 
-        static int Average (int a, int b, int c)
+        static float Average (int a, int b, int c)
         {
-            int sum = a + b + c;
+            float sum = a + b + c;
 
             return sum / 3;
         }
@@ -24,7 +24,7 @@ namespace Methods
             Greet("Rakib");
             Greet("Shawon");
 
-            Console.WriteLine(Average(10, 20, 30));
+            Console.WriteLine(Average(3, 6, 2));
 
             Console.ReadLine();
         }
