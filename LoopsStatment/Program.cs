@@ -36,6 +36,8 @@ namespace LoopsStatment
             }
 
 
+
+
             Console.ReadLine();
         }
     }
