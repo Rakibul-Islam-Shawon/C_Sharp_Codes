@@ -8,13 +8,15 @@ namespace Methods
 {
     internal class Program
     {
-        static void Greet()
+        static void Greet(string name)
         {
-            Console.WriteLine("Good Morning.");
+            Console.WriteLine("Good Morning." + name);
         }
         static void Main(string[] args)
         {
-            Greet();
+            Greet("Rakib");
+
+            Console.ReadLine();
         }
     }
 }
