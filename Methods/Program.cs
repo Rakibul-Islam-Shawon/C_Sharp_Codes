@@ -12,10 +12,19 @@ namespace Methods
         {
             Console.WriteLine("Good Morning." + name);
         }
+
+        static int Average (int a, int b, int c)
+        {
+            int sum = a + b + c;
+
+            return sum / 3;
+        }
         static void Main(string[] args)
         {
             Greet("Rakib");
             Greet("Shawon");
+
+            Console.WriteLine(Average(10, 20, 30));
 
             Console.ReadLine();
         }
