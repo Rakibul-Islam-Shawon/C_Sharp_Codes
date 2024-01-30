@@ -15,6 +15,7 @@ namespace Methods
         static void Main(string[] args)
         {
             Greet("Rakib");
+            Greet("Shawon");
 
             Console.ReadLine();
         }
