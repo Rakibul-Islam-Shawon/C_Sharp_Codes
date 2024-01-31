@@ -11,8 +11,10 @@ namespace Float_Data_Types
         static void Main(string[] args)
         {
             float Num = 10.3F;
+            float Num2 = 30.4F;
 
             Console.WriteLine(Num);
+            Console.WriteLine(Num2);
             Console.ReadLine();
 
 
