@@ -10,7 +10,9 @@ namespace Boolean
     {
         static void Main(string[] args)
         {
-            bool _Name = true;
+            /*bool _Name = true;*/
+
+            bool _Name = false;
 
             if (_Name)
             {
