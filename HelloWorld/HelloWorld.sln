@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "..\Methods\Metho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorusingMethod", "..\CalculatorusingMethod\CalculatorusingMethod.csproj", "{A4464036-1A44-425E-8AF3-F5103B8A7422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boolean", "..\Boolean\Boolean.csproj", "{4349135C-0D89-467E-98F2-E1F5E8EB831B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{A4464036-1A44-425E-8AF3-F5103B8A7422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4464036-1A44-425E-8AF3-F5103B8A7422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4464036-1A44-425E-8AF3-F5103B8A7422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4349135C-0D89-467E-98F2-E1F5E8EB831B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4349135C-0D89-467E-98F2-E1F5E8EB831B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4349135C-0D89-467E-98F2-E1F5E8EB831B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4349135C-0D89-467E-98F2-E1F5E8EB831B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
