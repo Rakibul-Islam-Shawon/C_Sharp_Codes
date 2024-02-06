@@ -12,7 +12,7 @@ namespace Boolean
         {
             /*bool _Name = true;*/
 
-            bool _Name = false;
+            /*bool _Name = false;
 
             if (_Name)
             {
@@ -21,6 +21,14 @@ namespace Boolean
             else
             {
                 Console.WriteLine("The value is false.");
+            }*/
+
+            bool condition = true;
+
+            if (condition)
+            {
+
+                condition = false;
             }
 
 
