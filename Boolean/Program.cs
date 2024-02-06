@@ -27,7 +27,7 @@ namespace Boolean
 
             if (condition)
             {
-
+                Console.WriteLine("Please change your mind: ");
                 condition = false;
             }
 
