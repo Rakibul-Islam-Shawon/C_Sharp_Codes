@@ -12,10 +12,14 @@ namespace InputandOutput
         {
             Console.Write("What is your first name: ");
             string fName= Console.ReadLine();
+
+            Console.Write("What is your Middle name: ");
+            string mName = Console.ReadLine();
+
             Console.WriteLine("What is your Last Name: ");
             string lName = Console.ReadLine();
 
-            Console.WriteLine("Congratiolations ! {0} {1} , Your are a programmer1", fName, lName);
+            Console.WriteLine("Congratiolations ! {0} {1} {2} , Your are a programmer1", fName,mName, lName);
             Console.ReadLine();
         }
     }
