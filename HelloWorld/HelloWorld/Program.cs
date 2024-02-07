@@ -14,6 +14,8 @@ namespace HelloWorld
             Console.WriteLine("I will try to push everything in Github");
             Console.WriteLine("Hello World, Programming is not so easy");
             Console.WriteLine("Hello World, Life is so complicated");
+            Console.WriteLine("Hello World, Life is so beautiful If we grateful to our creator.");
+
             Console.ReadLine();
         }
     }
