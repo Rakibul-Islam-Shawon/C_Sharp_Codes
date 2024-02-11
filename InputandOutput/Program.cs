@@ -25,10 +25,13 @@ namespace InputandOutput
             Console.WriteLine("What is your University Name: ");
             string versityName = Console.ReadLine();
 
+            Console.WriteLine("What is your Hometwon: ");
+            string homeName = Console.ReadLine();
+
 
 
             Console.WriteLine("Congratiolations ! {0} {1} {2} , Your are a programmer1", fName,mName, lName);
-            Console.WriteLine("Your address is : {0} and Your University is : {1}",adressName, versityName);
+            Console.WriteLine("Your address is : {0} and Your hometown is: {1} Your University is : {2}",adressName,homeName, versityName);
             Console.ReadLine();
         }
     }
