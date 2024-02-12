@@ -22,7 +22,7 @@ namespace InputandOutput
             Console.WriteLine("What is your Adress: ");
             string adressName = Console.ReadLine();
 
-            Console.WriteLine("What is your University Name: ");
+            Console.WriteLine("What is your University Name and Address: ");
             string versityName = Console.ReadLine();
 
             Console.WriteLine("What is your Hometwon: ");
