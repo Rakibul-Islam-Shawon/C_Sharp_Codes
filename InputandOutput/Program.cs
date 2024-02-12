@@ -28,10 +28,14 @@ namespace InputandOutput
             Console.WriteLine("What is your Hometwon: ");
             string homeName = Console.ReadLine();
 
+            Console.WriteLine("What is your Profession: ");
+            string profession = Console.ReadLine();
 
 
             Console.WriteLine("Congratiolations ! {0} {1} {2} , Your are a programmer1", fName,mName, lName);
             Console.WriteLine("Your address is : {0} and Your hometown is: {1} Your University is : {2}",adressName,homeName, versityName);
+            Console.WriteLine("Your are a {0}",profession);
+
             Console.ReadLine();
         }
     }
