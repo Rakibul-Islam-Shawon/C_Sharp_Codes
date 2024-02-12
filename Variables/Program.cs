@@ -22,7 +22,7 @@ namespace Variables
 
             */
 
-            Console.WriteLine("What is your name ?");
+            /*Console.WriteLine("What is your name ?");
             Console.Write("Type your first name: ");
 
             string myFirstName;
@@ -32,7 +32,15 @@ namespace Variables
             string myLastName;
             myLastName = Console.ReadLine();
 
-            Console.WriteLine("Hello, " + myFirstName + " " + myLastName);
+            Console.WriteLine("Hello, " + myFirstName + " " + myLastName);*/
+
+            int a = 12;
+            int c = 23;
+
+            int sum = a + c;
+
+            Console.WriteLine(sum);
+            
             Console.ReadLine();
 
         }
