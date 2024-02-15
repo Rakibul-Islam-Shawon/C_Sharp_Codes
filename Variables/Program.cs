@@ -39,6 +39,8 @@ namespace Variables
 
             int sum = m + n;
 
+            int substraction = n - m;
+
             int x = 3;
             int y = 44;
 
@@ -52,6 +54,7 @@ namespace Variables
 
             Console.WriteLine(division);
             Console.WriteLine(multiplication);
+            Console.WriteLine(substraction);
 
             Console.WriteLine(sum);
             
