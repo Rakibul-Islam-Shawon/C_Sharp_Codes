@@ -44,6 +44,13 @@ namespace Variables
 
             int multiplication = x * y;
 
+
+            int a = 8;
+            int b = 4;
+
+            int division = a / b;
+
+            Console.WriteLine(division);
             Console.WriteLine(multiplication);
 
             Console.WriteLine(sum);
