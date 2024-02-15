@@ -34,10 +34,17 @@ namespace Variables
 
             Console.WriteLine("Hello, " + myFirstName + " " + myLastName);*/
 
-            int a = 12;
-            int c = 23;
+            int m = 12;
+            int n = 233;
 
-            int sum = a + c;
+            int sum = m + n;
+
+            int x = 3;
+            int y = 44;
+
+            int multiplication = x * y;
+
+            Console.WriteLine(multiplication);
 
             Console.WriteLine(sum);
             
