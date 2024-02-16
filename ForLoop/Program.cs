@@ -10,7 +10,7 @@ namespace ForLoop
     {
         static void Main(string[] args)
         {
-            for(int i = 0; i < 10; i++)
+            for(int i = 0; i < 100; i++)
             {
                 if (i == 7)
                 {
@@ -18,7 +18,7 @@ namespace ForLoop
                 }
             }
 
-            for (int myValue = 0; myValue < 12; myValue++)
+            for (int myValue = 0; myValue < 120; myValue++)
             {
                 Console.WriteLine(myValue);
                 
