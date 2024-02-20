@@ -30,6 +30,7 @@ namespace ForLoop
                 }
                 
             }
+            Console.WriteLine("Bye Bye") ;
             Console.ReadLine();
         }
     }
