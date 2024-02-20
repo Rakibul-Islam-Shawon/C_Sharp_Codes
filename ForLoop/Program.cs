@@ -25,6 +25,7 @@ namespace ForLoop
                 if(myValue == 8)
                 {
                     Console.WriteLine("Found 8.");
+                    Console.WriteLine("We can exit now.");
                     break; 
                 }
                 
