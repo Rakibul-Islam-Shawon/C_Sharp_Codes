@@ -22,6 +22,11 @@ namespace ForLoop
             for (int myValue = 0; myValue < 120; myValue++)
             {
                 Console.WriteLine(myValue);
+                if(myValue == 8)
+                {
+                    Console.WriteLine("Found 8.");
+                    break; 
+                }
                 
             }
             Console.ReadLine();
