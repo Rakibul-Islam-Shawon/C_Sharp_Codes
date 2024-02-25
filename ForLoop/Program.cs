@@ -31,7 +31,7 @@ namespace ForLoop
                 
             }
 
-            for (int myNum = 0; myNum < 5;myNum++)
+            for (int myNum = 0; myNum < 15;myNum++)
             {
                 Console.WriteLine(myNum);
 
