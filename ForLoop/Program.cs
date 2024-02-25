@@ -19,7 +19,7 @@ namespace ForLoop
                 }
             }
 
-            for (int myValue = 0; myValue < 120; myValue++)
+            for (int myValue = 0; myValue < 10; myValue++)
             {
                 Console.WriteLine(myValue);
                 if(myValue == 8)
