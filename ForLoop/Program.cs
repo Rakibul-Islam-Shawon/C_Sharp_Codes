@@ -36,6 +36,12 @@ namespace ForLoop
                 Console.WriteLine(myNum);
 
             }
+
+
+            for(int a = 10; a>= 0; a--)
+            {
+                Console.WriteLine(a);
+            }
             Console.WriteLine("Bye Bye") ;
             Console.ReadLine();
         }
