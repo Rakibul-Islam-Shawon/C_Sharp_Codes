@@ -40,7 +40,12 @@ namespace ForLoop
 
             for(int a = 10; a>= 0; a--)
             {
-                Console.WriteLine(a);
+                if(a == 5)
+                {
+                    Console.WriteLine(a);
+                    break;
+                }
+               
             }
             Console.WriteLine("Bye Bye") ;
             Console.ReadLine();
