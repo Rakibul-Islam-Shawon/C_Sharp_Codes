@@ -33,11 +33,11 @@ namespace Boolean
 
             bool _isTrue = true;
 
-            while (_isTrue)
+            do
             {
                 Console.WriteLine("Hi, How are you?");
                 _isTrue = false;
-            }
+            } while (_isTrue);
 
 
             Console.ReadLine();
