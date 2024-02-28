@@ -23,12 +23,20 @@ namespace Boolean
                 Console.WriteLine("The value is false.");
             }*/
 
-            bool condition = true;
+            /*bool condition = true;
 
             if (condition)
             {
                 Console.WriteLine("Please change your mind: ");
                 condition = false;
+            }*/
+
+            bool _isTrue = true;
+
+            if (_isTrue)
+            {
+                Console.WriteLine("Hi, How are you?");
+                _isTrue = false;
             }
 
 
