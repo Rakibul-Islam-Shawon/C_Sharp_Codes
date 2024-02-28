@@ -33,7 +33,7 @@ namespace Boolean
 
             bool _isTrue = true;
 
-            if (_isTrue)
+            while (_isTrue)
             {
                 Console.WriteLine("Hi, How are you?");
                 _isTrue = false;
