@@ -24,7 +24,7 @@ namespace CalculatorusingMethod
         static void Main(string[] args)
         {
             /* local variable definition */
-            int a = 1000;
+            int a = 10000;
             int b = 2000;
             int ret;
             NumberManipulator n = new NumberManipulator();
