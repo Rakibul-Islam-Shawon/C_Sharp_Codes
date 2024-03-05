@@ -31,7 +31,7 @@ namespace Boolean
                 condition = false;
             }*/
 
-            bool _isTrue = true;
+            bool _isTrue = false;
 
             do
             {
